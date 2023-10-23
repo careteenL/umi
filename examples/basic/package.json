@@ -1,0 +1,32 @@
+{
+  "name": "@careteen/umi",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "umi dev",
+    "dev:my": "node ./bin/umi.js",
+    "debug": "node --inspect-brk=9229 ./node_modules/_umi@3.3.1@umi/bin/umi.js dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "cnpm": "^6.1.1",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mustache": "^4.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "umi": "3.3.1",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-middleware": "^4.0.2",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
